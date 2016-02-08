@@ -1,0 +1,197 @@
+/*START CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*END CSS RESET*/
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+html { 
+  background: url(images/blueprintPaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: 'Rock Salt', cursive;
+	font-size: 40px;
+	margin-left: 40px;
+	color: white;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 10px;
+	font-family: 'Rock Salt', cursive;
+	margin-left: 60px;
+	padding: 10px;
+	padding-bottom: 50px;
+	color: white;
+}
+
+
+.homeMain {
+	width: 80%;
+	float: left;
+	position: relative;
+	left: 10%;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	padding-left: 60px;
+	color: white
+}
+
+
+.menu {
+	margin:0 auto; 
+	padding-left: 50px;
+	height:30px; 
+	width:100%; 
+	display:block; 
+}
+.menu li { 
+	padding:0; 
+	margin:0; 
+	list-style:none; 
+	display:inline;
+}
+
+.menu li a {
+	float:left; 
+	padding-left:15px; 
+	display:block; 
+	color: red; 
+	text-decoration:none; 
+	font-family: 'Architects Daughter', cursive;
+	cursor: crosshair; 
+}
+
+.menu li a span {
+	line-height:30px; 
+	float:left; 
+	display:block; 
+	padding-right:15px; 
+}
+
+.menu li a:hover {
+	color: black;
+}
+
+.menu li a:hover span {
+	background-position:100% -60px;
+}
+
+.menu li a.active, .menu li a.active:hover {
+	line-height:30px; 
+	font-family: 'Architects Daughter', cursive;
+	color:red;
+}
+
+.lips {
+	display: block;
+	margin: 0 auto;
+}
+
+.rocky {
+	position: center;
+}
+
+.tagline {
+	text-align: center;
+}
+
+.lb {
+	position: center;
+}
+
+.legoBlock {
+	display: block;
+  	margin: 0 auto;
+}
+
+.fotorama {
+	padding-left: 100px;
+}
+
+#para {
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+}
+
+#contact {
+	margin-left: 40px;
+	padding: 0;
+	margin-bottom: 0;
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+}
+
+#contactEnd {
+	margin-left: 40px;
+	padding: 0;
+	padding-bottom: 10px;
+	color: white;
+	font-family: 'Architects Daughter', cursive;
+}
+
+@media (max-width: 530px){
+	body {
+		max-width: 50%;
+		max-height: 50%;
+	}
+	h1 {
+		padding-top: 50px;
+	}
+};	
